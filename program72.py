@@ -1,6 +1,6 @@
 #WAP to use the API of crypto currency
 import requests
-api_id="CG-f2wXaQ33YUiT55jWb7AzSg"
+api_id=""
 while True:
     coin=input("Enter cryptocoin: ")
     response = requests.get(f"https://api.coingecko.com/api/v3/simple/price?ids={coin}&vs_currencies=usd,inr&x_cg_demo_api_key={api_id}")
