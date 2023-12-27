@@ -1,5 +1,5 @@
 #WAP to use ‘weather API’ and print temperature of any city, also print the sunrise and sunset times for the same humidity of that area.
-api_key="e8988573483b036cc946ddde037c0de6"
+api_key="e8988573483b036cc946ddde037c0d"
 import requests
 import datetime
 city=input("Enter city: ")
